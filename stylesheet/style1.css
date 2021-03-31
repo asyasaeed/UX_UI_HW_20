@@ -1,0 +1,137 @@
+body {
+    position: relative;
+  }
+
+
+
+  .navbar{
+      justify-content: center;
+      align-items: center;
+      background-color:white;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      color: black;
+     }
+
+  .nav-item img{
+      display: flex;
+      height: 40px;
+      width:40px;
+      justify-content: center;
+
+  }
+
+.jumbotron{
+    background-image: url("../images/bgmain.png");
+    background-repeat: no-repeat;
+    height: 500px;;
+    width:auto
+}
+
+.class process{
+    position: relative;
+    overflow-y: scroll;
+    height:100vh;
+
+}
+
+#maintitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 80px;
+}
+
+.heading{
+    color:#5DADBF;
+}
+
+.subheadings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  
+}
+
+.subheadings h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color:#5DADBF;
+
+}
+
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left:250px;
+    margin-right:250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    }
+
+    p{
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+    }
+.research{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left:250px;
+    margin-right:250px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.card{
+    border: none;
+
+}
+
+.competitors{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.persona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#f4f4f4;
+    width: 100%;
+    height:70vh;
+    margin-top: 20px;
+  
+}
+.persona img{
+   width: 910px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#5DADBF;
+    height: 15vh;
+}
+
+.quote h4{
+    font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        color: white;
+
+}
+

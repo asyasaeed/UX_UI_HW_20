@@ -9,6 +9,8 @@ console.log("loaded properly");
     console.log("Please Work!");
   }); 
 
+
+  $('process').scrollspy({ target: '#navbar-example2' })
  
 
 
