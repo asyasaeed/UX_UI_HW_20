@@ -1,0 +1,132 @@
+#container{
+    margin:0px;
+}
+
+/* Navigation */
+#navbar{
+    float: left;
+	position: absolute;
+    display: inline-flex;
+	margin-top:20px;
+    margin-left: 30px;
+    background: transparent;
+    text-align: center;
+    z-index: 1;
+    text-align: center;
+    justify-content: right;
+   /* border-style: solid;
+    border-color: black;*/
+    }
+ /* dots button*/
+.nav-bttn{
+    margin-top: 15px;/*
+    display: inline-flex;
+    position:relative;
+    margin-top: 10px;
+    
+   
+    justify-content: center;
+    align-items: center;*/
+    }
+.circle{
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background-color: #f62a00;
+    margin-left:1px;
+    margin-right: 1px;
+    margin-bottom: 15px;
+}
+
+
+.homeicon, .abouticon, .contacticon{
+    margin-bottom: 10px;
+}
+
+#Section1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    height: 90vh;
+  
+
+}
+
+#topbg{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height:60vh;
+    background-color: #00293c;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    position: absolute;
+    top:20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   /* border-style: solid;
+    border-color: black;*/
+}
+
+#title h1{
+    font-family: 'Paytone One', sans-serif;
+    margin: 0px 0px;
+    font-size: 72px;
+    color: #f62a00;
+    text-align: center;
+}
+
+#title p{
+    text-align: center;
+    font-size: 24px;
+    margin: 0px 0px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding:5px;
+  
+}
+
+#img-position{
+    position: absolute;
+    top: 45vh;
+    /*border-style: solid;
+    border-color: black;*/
+}
+
+.profile-img{
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+}
+
+.intro-txt{
+    display: flex;
+    position:absolute;
+    top: 72vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+   /* border-style: solid;
+    border-color: black;*/
+   
+  }
+
+.intro-txt p{
+    max-width: 800px;
+   /* border-style: solid;
+    border-color: black;*/
+    margin:25px;
+  
+}
